@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tugas Minggu 3"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            android:text="Linier layout"
+            android:layout_below="@+id/circle1"
+            android:textStyle="italic"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="5dp"
+            android:text="Relative Layout"
+            android:layout_below="@+id/circle2"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="5dp"
+        android:text="Constraint layout"
+        android:layout_below="@+id/circle3"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="5dp"
+        android:text="Tabel Layout"
+        android:layout_below="@+id/circle4"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:text="Linier layout"
+        android:layout_below="@+id/circle4"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="5dp"
+        android:text="Material Design"
+        android:layout_below="@+id/circle6"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:text="Scrol View"
+        android:layout_below="@+id/circle7"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="5dp"
+        android:text="Scrol View Horizontal"
+        android:layout_below="@+id/circle8"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/circle1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/circle"
+            android:text="1"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/circle2"
+            android:background="@drawable/circle"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="155dp"
+            android:text="2"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/circle3"
+        android:background="@drawable/circle"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="290dp"
+        android:text="3"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/circle4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/circle"
+        android:text="4"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/circle5"
+        android:background="@drawable/circle"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="155dp"
+        android:text="5"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/circle6"
+        android:background="@drawable/circle"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="290dp"
+        android:text="6"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/circle7"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/circle"
+        android:text="7"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/circle8"
+        android:background="@drawable/circle"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="155dp"
+        android:text="8"/>
+
+</RelativeLayout>
